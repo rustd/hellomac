@@ -1,5 +1,5 @@
 name: hello-world
-on: [workflow_run]
+on: workflow_dispatch
 jobs:
   my-job:
     runs-on: ubuntu-latest
