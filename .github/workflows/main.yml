@@ -7,4 +7,4 @@ jobs:
       - name: my-step
         run: |
          sw_vers
-         df
+         df -h
