@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: |
-         sleep 20
+         sleep 60
          sw_vers
          df -h
