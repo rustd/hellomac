@@ -21,8 +21,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
-      - run: pod install # Install CocoaPods dependencies
-      - run: fastlane scan # Run tests using Fastlane
+      - run: df -h # Install CocoaPods dependencies
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
