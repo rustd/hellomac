@@ -21,6 +21,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      - run: sw_vers
       - run: df -h # Install CocoaPods dependencies
 
 # Orchestrate jobs using workflows
