@@ -6,9 +6,10 @@ jobs:
     steps:
       - name: my-step
         run: |
-         sleep 300
          sw_vers
-         df -h
       - uses: maxim-lobanov/setup-xcode@v1
         with:
           xcode-version: latest  
+      - name: my-step2
+        run: |
+         sw_vers
