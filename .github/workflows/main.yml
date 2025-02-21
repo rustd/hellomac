@@ -9,3 +9,6 @@ jobs:
          sleep 300
          sw_vers
          df -h
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest  
