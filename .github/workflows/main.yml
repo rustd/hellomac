@@ -9,8 +9,7 @@ jobs:
          sw_vers
       - name: Install dependencies
         run: |
-         # sudo gem install xcode-install
-
+         sleep 30s
       - name: Install Xcode 12.5
         run: |
           # xcversion install 12.5
