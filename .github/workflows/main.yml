@@ -9,12 +9,12 @@ jobs:
          sw_vers
       - name: Install dependencies
         run: |
-         sudo gem install xcode-install
+         # sudo gem install xcode-install
 
       - name: Install Xcode 12.5
         run: |
-          xcversion install 12.5
-          sudo xcode-select -s /Applications/Xcode_12.5.app
+          # xcversion install 12.5
+          # sudo xcode-select -s /Applications/Xcode_12.5.app
       - name: my-step2
         run: |
-         sw_vers
+         # sw_vers
